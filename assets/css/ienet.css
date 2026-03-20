@@ -3884,7 +3884,7 @@ h6 {
   left: 0;
   right: 0;
   z-index: 999;
-  top: -34px;
+  /* top: -34px; */
 
 
   
@@ -3900,13 +3900,14 @@ h6 {
   transform: translateY(0%);
   visibility: visible;
   background: #251444;
+  padding-top: 0px;
 }
 .sticky-header--cloned .main-header__inner {
   padding: 0;
 }
 @media (max-width: 1199px) {
   .sticky-header--cloned .main-header__inner {
-    padding: 15px 0;
+    padding: -47px 0;
   }
 }
 
@@ -16918,7 +16919,7 @@ body.boxed-wrapper .about-one__shape {
 @media (max-width: 767px) {
     .container-fluid,
     .container {
-        padding-top: 0px; /* reduced */
+        padding-top: 14px; /* reduced */
     }
 }
 
@@ -17023,6 +17024,10 @@ body.boxed-wrapper .about-one__shape {
 
 /* logo size */
 .main-header__logo img {
-    height: 200px;  /* adjust this value */
+    height: 155px;  /* adjust this value */
     width: auto;   /* keeps aspect ratio */
 }
+
+
+
+
