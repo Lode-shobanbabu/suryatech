@@ -3372,7 +3372,7 @@ h6 {
 .main-header {
   position: absolute;
   left: 0;
-  top: 0px;
+  top: 15px;
   width: 100%;
   z-index: 99;
   background-color:  transparent;
@@ -3492,6 +3492,7 @@ h6 {
 @media (max-width: 991px) {
   .main-header__call {
     margin-left: 35px;
+    margin-top: 5px;
   }
 }
 @media (max-width: 767px) {
@@ -16092,6 +16093,7 @@ body.boxed-wrapper .about-one__shape {
 @media (max-width: 991px) {
     .mobile-nav__toggler {
         display: flex;
+        margin-top: 10px;
     }
 }
 
@@ -17024,10 +17026,21 @@ body.boxed-wrapper .about-one__shape {
 
 /* logo size */
 .main-header__logo img {
-    height: 155px;  /* adjust this value */
-    width: auto;   /* keeps aspect ratio */
+  
+    width: auto;  
+    height: auto px;
 }
 
 
+
+
+/* mobile view */
+@media (max-width : 768px){
+  .main-header__logo img{
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 
 
